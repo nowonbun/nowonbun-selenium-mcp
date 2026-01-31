@@ -1,0 +1,12 @@
+﻿# Codex MCP config example for selenium-mcp (HTTP)
+# Place this under C:\Users\<you>\.codex\config.toml
+
+[mcp_servers.selenium]
+url = "http://127.0.0.1:8001/mcp"
+
+[mcp_servers.selenium.env]
+SELENIUM_BROWSER = "chrome"
+# CHROMEDRIVER_PATH = "C:/path/to/chromedriver.exe"
+# MCP_HOST = "127.0.0.1"
+# MCP_PORT = "8001"
+# MCP_PATH = "/mcp"
